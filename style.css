@@ -1,0 +1,38 @@
+body{
+	margin: 0p;
+	padding: 0;
+	font-family: sans-serif;
+	transition: background-color 0.5s, color 0.5s;
+}
+
+.container{
+	text-align: center;
+	margin-bottom:20%;
+}
+
+button{
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	border:none;
+	border-radius: 6px;
+
+}
+
+body.light{
+	background-color: blue;
+	color: yellow;	
+}
+button.light{
+	background-color: green;
+	color:white;
+}
+
+body.dark{
+	background-color: yellow;
+	color: grey;	
+}
+button.dark{
+	background-color: black;
+	color:red;
+}
